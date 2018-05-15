@@ -42,9 +42,9 @@ public class MSCognitiveServicesClassifier {
     private int numberOfClasses = 0;
 
     private static final int INPUT_SIZE = 227;
-    private static final float IMAGE_MEAN_R = 124.f;
+    private static final float IMAGE_MEAN_R = 123.f; //124.f;
     private static final float IMAGE_MEAN_G = 117.f;
-    private static final float IMAGE_MEAN_B = 105.f;
+    private static final float IMAGE_MEAN_B = 104.f; //105.f;
     private static final float IMAGE_STD = 1.f;
     private static final String INPUT_NAME = "Placeholder";
     private static final String OUTPUT_NAME = "loss";
